@@ -37,18 +37,16 @@ echo \
 
 ## docker engine install
 
-sudo apt update
-
-sudo apt purge -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose docker docker.io
+## sudo apt purge -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose docker docker.io
 
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-sudo docker run hello-world
+## sudo docker run hello-world
+
+####
+
+bash jenkins.bash
+
+####
 
 echo "finished provision..."
-
-####
-
-sudo bash jenkins.bash
-
-####
