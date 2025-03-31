@@ -16,7 +16,7 @@ echo
 
 ##
 
-apt-get update
+sudp apt update
 
 ##
 
