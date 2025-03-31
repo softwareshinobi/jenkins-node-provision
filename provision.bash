@@ -1,15 +1,5 @@
 #!/bin/bash
 
-##
-## this is a simple bash script to install basic server config
-##
-##     OS target: docker-first debian-based linux
-##
-##     Overview: update and upgrade the system, install troubleshooting tools, vim, and docker compose
-##
-
-##
-
 set -e
 
 reset
@@ -27,29 +17,6 @@ echo
 ##
 
 apt-get update
-
-##
-
-apt-get upgrade -y
-
-apt-get dist-upgrade -y
-
-##
-
-apt-get install -y net-tools
-
-apt-get install -y vim
-
-##
-##
-
-#set -e;
-
-#set -x;
-
-## updating apt
-
-sudo apt-get update;
 
 ##
 
