@@ -16,7 +16,7 @@ echo
 
 ##
 
-sudp apt update
+sudo apt update
 
 ##
 

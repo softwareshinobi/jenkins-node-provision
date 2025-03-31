@@ -8,9 +8,11 @@ java --version
 
 ##
 
-sudo usermod -a -G docker $USER
+userr=`whoami`
 
-id $USER
+sudo usermod -a -G docker $userr
+
+id $userr
 
 ##
 
